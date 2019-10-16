@@ -1,0 +1,44 @@
+#videos {
+    list-style: none;
+    overflow: hidden;
+}
+
+#videos > li {
+    display: flex;
+    flex-direction: row;;
+    justify-content: left;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+.thumbnail {
+    margin-right: 10px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#videos > li:hover {
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+body {
+    background-image: url(background.png);
+}
